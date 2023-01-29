@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TopreLib")(type "Legacy")(uri "C:/Users/viva-/Documents/GitHub/libraries/topre/TopreLib.lib")(options "")(descr ""))
+  (lib (name "cipulot_parts")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/cipulot_kicad_parts-main/cipulot_parts.kicad_sym")(options "")(descr ""))
+)
