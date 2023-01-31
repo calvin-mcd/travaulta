@@ -15796,7 +15796,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 262d03d9-ab78-41f4-a0c9-511717350ee1)
-    (at 111.125 25.4 180)
+    (at 69.817262 122.9925 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C25744")
@@ -15881,7 +15881,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 29c8288a-962a-4fec-a485-5b3452e90347)
-    (at 117.772738 33.1125 180)
+    (at 76.465 130.705 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C25076")
@@ -16239,7 +16239,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 3a4cdc98-e2c6-4008-8604-1a42b9f6637d)
-    (at 120.682738 32.5825 180)
+    (at 79.375 130.175 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C25741")
@@ -16455,7 +16455,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 4d9476a7-c90b-4b04-9b63-dba711943f56)
-    (at 131.182738 33.1325 180)
+    (at 90.4875 30.1625 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "travaulta.kicad_sch")
@@ -16586,7 +16586,7 @@
 
   (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (layer "B.Cu")
     (tedit 5D3C0721) (tstamp 566dd449-1c49-45f0-810c-29043e5cc81f)
-    (at 82.55 49.657)
+    (at 82.55 39.6875)
     (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
     (tags "usb usb-c 2.0 pd")
     (property "Sheetfile" "travaulta.kicad_sch")
@@ -17015,7 +17015,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 6b410210-c374-4e13-89f4-d660ce32984b)
-    (at 128.272738 34.2925 180)
+    (at 84.1375 31.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "travaulta.kicad_sch")
@@ -17057,7 +17057,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 6cc5e120-122d-40ec-bc54-f3847cacf7a2)
-    (at 125.362738 34.2925 180)
+    (at 74.6125 31.75 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "travaulta.kicad_sch")
@@ -17675,7 +17675,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 80d82ccd-71b6-4e97-839f-4918cb3c9df8)
-    (at 105.312738 19.3725 180)
+    (at 64.005 116.965 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "LCSC" "C25076")
