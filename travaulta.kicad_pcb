@@ -20317,6 +20317,9 @@
   (gr_arc locked (start 46.575 99.884) (mid 45.019374 99.239626) (end 44.375 97.684) (layer "Edge.Cuts") (width 0.05) (tstamp e5d6644f-e0b9-47fd-a8df-c1dea9c3890a))
   (gr_line locked (start 51.466 104.774999) (end 71.150001 104.774999) (layer "Edge.Cuts") (width 0.05) (tstamp ecf75acb-e52a-48c6-b8ba-5259c87f95c7))
   (gr_arc locked (start 249.184374 102.433999) (mid 249.931233 100.630857) (end 251.734375 99.884) (layer "Edge.Cuts") (width 0.05) (tstamp f7cab3d7-8ea7-4122-bc96-2be7274c8282))
+  (gr_text "housing edge cut interference???\n" (at 263.779 111.633 90) (layer "B.Cu") (tstamp 215094c8-af7b-4402-bf98-35e2095f6482)
+    (effects (font (size 2 2) (thickness 0.3)) (justify mirror))
+  )
 
   (zone (net 2) (net_name "GND") (layers F&B.Cu) (tstamp 403a6b9f-6594-45d9-a1c0-7c9c491e7f1f) (hatch edge 0.508)
     (connect_pads (clearance 0))
