@@ -1012,11 +1012,6 @@
     (uuid ffafbde4-b353-41e7-8260-3a0457a097ce)
   )
 
-  (text "CHANGE COL 10!?!?!?!!?" (at 318.135 78.74 0)
-    (effects (font (size 4 4)) (justify left bottom))
-    (uuid f56f1d78-6acd-4928-876f-d62b73869643)
-  )
-
   (global_label "ROW3" (shape input) (at 73.025 168.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0a97fad0-d097-4e5c-8b51-2db06b0b32f7)
