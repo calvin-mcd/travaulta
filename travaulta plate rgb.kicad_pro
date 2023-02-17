@@ -409,7 +409,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "travaulta plate topre.kicad_pro",
+    "filename": "travaulta plate rgb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "travaulta plate topre.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""

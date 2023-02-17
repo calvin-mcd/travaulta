@@ -1720,11 +1720,6 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid c26a476f-8439-4cd6-b786-ca0a0eb61811)
   )
-  (text "PIN AMUX, APLEX, DISCHARGE CAN BE MOVED AROUND.\n\nkeep ADV and BOOT1in place"
-    (at 100.33 57.15 0)
-    (effects (font (size 3 3)) (justify left bottom))
-    (uuid e3a0d98f-c781-4ab1-8234-caa5bb4bf7b7)
-  )
   (text "Crystal" (at 94.615 167.64 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid ed82052d-8dae-4cbe-af8b-c71b0e3e8f22)
