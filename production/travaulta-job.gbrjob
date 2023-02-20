@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-02-16T23:07:07+01:00"
+    "CreationDate": "2023-02-19T18:21:45+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "travaulta simplified",
-      "GUID": "74726176-6175-46c7-9461-2073696d706c",
+      "Name": "travaulta",
+      "GUID": "74726176-6175-46c7-9461-2e6b69636164",
       "Revision": "rev?"
     },
     "Size": {
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "travaulta simplified-F_Cu.gbr",
+      "Path": "travaulta-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-In1_Cu.gbr",
+      "Path": "travaulta-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-In2_Cu.gbr",
+      "Path": "travaulta-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-B_Cu.gbr",
+      "Path": "travaulta-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-F_Paste.gbr",
+      "Path": "travaulta-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-B_Paste.gbr",
+      "Path": "travaulta-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-F_Silkscreen.gbr",
+      "Path": "travaulta-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-B_Silkscreen.gbr",
+      "Path": "travaulta-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta simplified-F_Mask.gbr",
+      "Path": "travaulta-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta simplified-B_Mask.gbr",
+      "Path": "travaulta-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta simplified-Edge_Cuts.gbr",
+      "Path": "travaulta-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

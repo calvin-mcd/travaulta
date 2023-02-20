@@ -1,4 +1,4 @@
-22472432467867090
+22474109394905714
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93848,6 +93848,13 @@ solder_jumper
 0
 2
 2
+lib
+RGB realforce R2
+
+
+0
+0
+0
 lib
 ToprePad
 
