@@ -1605,7 +1605,7 @@
     (property "Reference" "R21" (at 236.855 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100" (at 236.855 64.77 90)
+    (property "Value" "100k" (at 236.855 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 236.855 59.69 0)
