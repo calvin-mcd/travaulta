@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/topre/lib.pretty")(options "")(descr ""))
+  (lib (name "cipulot_parts")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/cipulot_kicad_parts-main/cipulot_parts.pretty")(options "")(descr ""))
+  (lib (name "CrumpPrints")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/CrumpPrints.pretty")(options "")(descr ""))
+)
