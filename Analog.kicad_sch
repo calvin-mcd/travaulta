@@ -409,9 +409,6 @@
   (junction (at 85.725 50.165) (diameter 0) (color 0 0 0 0)
     (uuid 313fd40e-0d63-4b85-b544-bf6c9e9eb583)
   )
-  (junction (at 97.79 116.84) (diameter 0) (color 0 0 0 0)
-    (uuid 34905a9d-fec1-4969-b97c-eb1c9250bbc0)
-  )
   (junction (at 69.85 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 45085934-28ba-4412-838c-d12b726d4b91)
   )
@@ -463,8 +460,14 @@
   (junction (at 90.17 116.84) (diameter 0) (color 0 0 0 0)
     (uuid 9ef8a071-b7b5-45ba-82fe-9029255191bd)
   )
+  (junction (at 97.79 116.84) (diameter 0) (color 0 0 0 0)
+    (uuid ac318fda-c7d9-49a5-be17-46d283a69f6c)
+  )
   (junction (at 74.295 116.84) (diameter 0) (color 0 0 0 0)
     (uuid b096feb3-90bf-40ba-981b-5c91220e6fcd)
+  )
+  (junction (at 97.79 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid b8f5f4a7-609d-4784-ba8c-fd817990f95b)
   )
   (junction (at 75.565 67.945) (diameter 0) (color 0 0 0 0)
     (uuid c0bb1e7a-0a28-48d1-a6c0-a8cec9278b73)
@@ -581,6 +584,10 @@
     (stroke (width 0) (type default))
     (uuid 2e3f744f-ea76-48dc-96df-9cf70418c320)
   )
+  (wire (pts (xy 97.79 116.84) (xy 102.235 116.84))
+    (stroke (width 0) (type default))
+    (uuid 302e8f8e-6d0e-4a21-8f19-0827f5856b6c)
+  )
   (wire (pts (xy 67.945 45.085) (xy 75.565 45.085))
     (stroke (width 0) (type default))
     (uuid 315972cb-4039-44f9-9c89-bf6f2c9fe86d)
@@ -633,7 +640,7 @@
     (stroke (width 0) (type default))
     (uuid 516f7fa0-1102-48ee-8c37-995b7046c561)
   )
-  (wire (pts (xy 97.79 116.84) (xy 102.235 116.84))
+  (wire (pts (xy 90.17 116.84) (xy 97.79 116.84))
     (stroke (width 0) (type default))
     (uuid 52fa4fe7-5dbf-4af8-b159-2f6bc1ee4f07)
   )
@@ -713,7 +720,7 @@
     (stroke (width 0) (type default))
     (uuid 8dc147cf-4aba-47c1-8d6d-b273e7177b8f)
   )
-  (wire (pts (xy 97.79 104.14) (xy 97.79 116.84))
+  (wire (pts (xy 97.79 104.14) (xy 97.79 111.76))
     (stroke (width 0) (type default))
     (uuid 92c475d4-80d7-4875-8fa3-160f92fd1507)
   )
@@ -857,9 +864,9 @@
     (stroke (width 0) (type default))
     (uuid e9de53d5-3cc5-402f-acce-51089a017054)
   )
-  (wire (pts (xy 90.17 116.84) (xy 97.79 116.84))
+  (wire (pts (xy 66.548 104.14) (xy 97.79 104.14))
     (stroke (width 0) (type default))
-    (uuid edaadd33-59d7-4e6b-a369-2cdfb27d9909)
+    (uuid ecf23abc-d257-428f-a0a7-317fa1619d56)
   )
   (wire (pts (xy 121.285 35.56) (xy 130.81 35.56))
     (stroke (width 0) (type default))
@@ -998,6 +1005,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "COL10" (shape input) (at 66.548 104.14 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c44ec31d-0a38-4977-b7e2-ff1bd19e9e0a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.5946 104.14 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "COL1" (shape input) (at 67.945 45.085 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e395d387-f9f4-4da1-b59e-82c3a10c25c4)
@@ -1073,6 +1087,11 @@
     (pin "1" (uuid 7ea5118d-3d9c-42bf-ba03-b996cbcf323c))
     (pin "2" (uuid b9fe8422-df77-44a5-90ab-f3274760ab7e))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "C14") (unit 1)
@@ -1099,6 +1118,11 @@
     (pin "1" (uuid 904d3831-a384-4ef9-b09e-1949201215c3))
     (pin "2" (uuid af411b3c-349d-4e30-9e8e-91a9962609ee))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R20") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R20") (unit 1)
@@ -1124,6 +1148,11 @@
     )
     (pin "1" (uuid e22d0b20-ed21-4526-9ca2-1ef3574e2a88))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0138") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0138") (unit 1)
@@ -1150,6 +1179,11 @@
     (pin "1" (uuid 814735fa-559c-4011-a332-0abc989ad81d))
     (pin "2" (uuid b38320e8-6c4b-4052-abca-80501b393b5d))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "C15") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "C15") (unit 1)
@@ -1179,6 +1213,11 @@
     (pin "6" (uuid b27f2465-704f-4692-af0e-7888479732ae))
     (pin "7" (uuid e1ae2773-a0db-4c6f-aa3f-742c781e78c9))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "U5") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "U5") (unit 1)
@@ -1204,6 +1243,11 @@
     )
     (pin "1" (uuid 821d7be3-77e8-4b7a-9566-4916f04ba596))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0140") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0140") (unit 1)
@@ -1244,6 +1288,11 @@
     (pin "8" (uuid 9af87914-d328-4222-8e84-66f22b373610))
     (pin "9" (uuid 3cc5ec4b-82b6-4b4e-84ae-b332e28445ef))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "U3") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "U3") (unit 1)
@@ -1269,6 +1318,11 @@
     )
     (pin "1" (uuid 4ba63484-ae36-4a9e-ba8b-46b183399475))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0141") (unit 1)
@@ -1295,6 +1349,11 @@
     (pin "1" (uuid 1a9418cd-c2d8-41b9-8fb1-4d12dcf5371c))
     (pin "2" (uuid 7cefac56-eb35-41ec-948a-ea317b5557bb))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "C12") (unit 1)
@@ -1321,6 +1380,11 @@
     (pin "1" (uuid 57b76f7d-74cd-45c1-b455-6912f3390256))
     (pin "2" (uuid c2f6164f-fb01-4b46-a0a0-4b6255b3458d))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R10") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R10") (unit 1)
@@ -1347,6 +1411,11 @@
     (pin "1" (uuid 513eb981-0357-4f3d-a292-3ca64bd154da))
     (pin "2" (uuid bfb8355c-ed30-435f-b73c-e1c96e6c7f4f))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R15") (unit 1)
@@ -1373,6 +1442,11 @@
     (pin "1" (uuid 3e61b2ed-1bb6-4863-8359-2866caabf5b9))
     (pin "2" (uuid 2ff83615-8829-4091-8a6a-4d50f0801ca4))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R11") (unit 1)
@@ -1399,6 +1473,11 @@
     (pin "1" (uuid 77d93bd1-c4d0-4929-a81e-9c82b2747a79))
     (pin "2" (uuid d2d25788-804f-48b8-b8c9-81139b8f128f))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R14") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R14") (unit 1)
@@ -1424,6 +1503,11 @@
     )
     (pin "1" (uuid 8be5b4d1-a680-42fe-822c-39ff1c4094d3))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0136") (unit 1)
@@ -1449,6 +1533,11 @@
     )
     (pin "1" (uuid c5b9e249-886b-4c7b-a4de-8bdf20008920))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0143") (unit 1)
@@ -1489,6 +1578,11 @@
     (pin "8" (uuid 2f139ed9-b5b6-4d54-99a9-dacba36db7d2))
     (pin "9" (uuid 9973a791-24c6-487e-916c-b778d235539d))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "U4") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "U4") (unit 1)
@@ -1515,6 +1609,11 @@
     (pin "1" (uuid f23f0a7c-0054-4cdd-924b-185382b19886))
     (pin "2" (uuid 5870c10a-e699-4b20-b31a-b71ecabbe5fb))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R23") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R23") (unit 1)
@@ -1540,9 +1639,45 @@
     )
     (pin "1" (uuid a34170d2-dce5-4043-8ed3-80bc6e5d22c0))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0148") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0148") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 97.79 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7809f4cb-4c7f-4807-8135-e918b520da0e)
+    (property "Reference" "R1" (at 100.33 113.665 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100k" (at 100.33 116.205 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 97.79 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1aec6335-508f-49eb-ac6f-c0fe624e7305))
+    (pin "2" (uuid 1dfe835e-f900-4677-9f06-0265e5247ec3))
+    (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1565,6 +1700,11 @@
     )
     (pin "1" (uuid ee91a6a0-623e-4f22-b1f2-89e14bb86ad0))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0139") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0139") (unit 1)
@@ -1591,6 +1731,11 @@
     (pin "1" (uuid 7408fa27-eed1-4f04-9181-c1f527d78289))
     (pin "2" (uuid 143c55b0-7496-415a-9f21-1985675732b0))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "C13") (unit 1)
@@ -1617,6 +1762,11 @@
     (pin "1" (uuid 2eaf421a-d072-4945-b77d-59ee40ce110d))
     (pin "2" (uuid 16cbe1dc-ad2d-49c7-bada-2efaad1e7857))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R21") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R21") (unit 1)
@@ -1643,6 +1793,11 @@
     (pin "1" (uuid a2aaaaaa-a6e3-4e11-90a7-114e9584e8ec))
     (pin "2" (uuid fd48777d-2be9-46e2-b8e4-d25716d28c8b))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R16") (unit 1)
@@ -1669,6 +1824,11 @@
     (pin "1" (uuid 85a79d5d-ddec-43cb-97e4-8949e51cc108))
     (pin "2" (uuid e1009c1b-5098-4fa0-9b03-5f87296b1894))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R17") (unit 1)
@@ -1695,6 +1855,11 @@
     (pin "1" (uuid 93bed29c-97c9-450d-a64b-596cb9504f02))
     (pin "2" (uuid 4ac6afa6-f709-4998-88b6-d2caccd35e41))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R12") (unit 1)
@@ -1721,6 +1886,11 @@
     (pin "1" (uuid c579c196-3b80-454d-af3a-71c9c6798d1d))
     (pin "2" (uuid 24dfd42a-9594-4e4f-9777-994317f0b8c5))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "JP1") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "JP1") (unit 1)
@@ -1751,6 +1921,11 @@
     )
     (pin "1" (uuid 5ca063bd-eb9e-4a4a-8dfb-d5c5a5a49d20))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0135") (unit 1)
@@ -1776,6 +1951,11 @@
     )
     (pin "1" (uuid 53c91d8e-5b65-410e-920d-ceb4c335e41a))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0134") (unit 1)
@@ -1801,6 +1981,11 @@
     )
     (pin "1" (uuid 35ead79c-7b60-451e-8f12-46f7f6d475e6))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0142") (unit 1)
@@ -1827,6 +2012,11 @@
     (pin "1" (uuid b8b2bb2a-0afb-48f1-b50a-e9b26b4ba3c9))
     (pin "2" (uuid 28751e06-d9e5-48c3-bf64-5ef81b0e9cc7))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R19") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R19") (unit 1)
@@ -1852,6 +2042,11 @@
     )
     (pin "1" (uuid 411d8930-b809-42e1-a80d-f4d91dc02a3a))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "#PWR0137") (unit 1)
@@ -1878,11 +2073,20 @@
     (pin "1" (uuid d16870a1-dd8a-47a7-9b89-6bc870cbe9c4))
     (pin "2" (uuid 50b8fb42-239c-4859-bfba-b552af777fc6))
     (instances
+      (project "Analog"
+        (path "/50d4bd76-6f14-4bbc-8973-18218e9c7ca0"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "travaulta"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc/197f4772-e814-41eb-a239-e401e14c7029"
           (reference "R13") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
