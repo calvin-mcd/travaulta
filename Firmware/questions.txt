@@ -1,0 +1,8 @@
+matrix.c
+thresholds rules? 
+
+travaulta.h
+how to define off grid switch, 11th switch on last row
+
+switch_matrix.c
+can it just be copied?
