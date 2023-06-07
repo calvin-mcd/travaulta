@@ -14,5 +14,4 @@
 	{XXX, k3B, k3C, k3D, XXX, k3F, XXX, k3H, k3I, XXX, XXX} \
 }
 
-}
 // clang-format on

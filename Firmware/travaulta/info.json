@@ -3,7 +3,7 @@
     "manufacturer": "calvin-mcd",
     "url": "https://github.com/calvin-mcd",
     "maintainer": "calvin-mcd",
-    "processor": "STM32FXXX",
+    "processor": "STM32F401",
     "bootloader": "stm32-dfu",
     "board": "GENERIC_STM_FXXX",
     "usb": {

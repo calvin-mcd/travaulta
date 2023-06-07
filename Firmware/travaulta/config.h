@@ -4,13 +4,13 @@
 
 /* key matrix size */
 #define MATRIX_ROWS 4
-#define MATRIX_COLS 10
+#define MATRIX_COLS 11
 
 /* Custom matrix pins and port select array */
 #define MATRIX_ROW_PINS \
     { B13, B14, B15, B12 }
 #define MATRIX_COL_CHANNELS \
-    { 2, 1, 0, 3, 4 }
+    { 2, 1, 0, 3, 4, 5 }
 #define MUX_SEL_PINS \
     { B5, B4, B3 }
 
