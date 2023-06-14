@@ -18,3 +18,5 @@ Cipulot\#8455
 
   
 people interested in supporting the pcb early 
+
+This project has been tested and confirmed to work. However, no-one involved in this project is responsible for any usage issues that may arise. Order at your own risk. Feel free to edit, modify and otherwise utilise these files.
