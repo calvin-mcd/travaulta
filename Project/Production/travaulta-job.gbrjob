@@ -5,75 +5,95 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-08-01T20:03:55+02:00"
+    "CreationDate": "2023-08-01T19:57:12+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "travaulta plate topre",
-      "GUID": "74726176-6175-46c7-9461-20706c617465",
+      "Name": "travaulta",
+      "GUID": "74726176-6175-46c7-9461-2e6b69636164",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 210.9,
-      "Y": 77.55
+      "X": 209.75,
+      "Y": 76.4
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.59,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.5,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "travaulta plate topre-F_Cu.gbr",
+      "Path": "travaulta-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "travaulta-In1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-F_Paste.gbr",
+      "Path": "travaulta-In2_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "travaulta-B_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "travaulta-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-B_Paste.gbr",
+      "Path": "travaulta-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-F_Silkscreen.gbr",
+      "Path": "travaulta-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-B_Silkscreen.gbr",
+      "Path": "travaulta-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate topre-F_Mask.gbr",
+      "Path": "travaulta-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta plate topre-B_Mask.gbr",
+      "Path": "travaulta-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta plate topre-Edge_Cuts.gbr",
+      "Path": "travaulta-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -99,10 +119,34 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.5,
+      "Thickness": 0.2,
       "Material": "7628",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.065,
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "7628",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
