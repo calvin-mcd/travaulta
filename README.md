@@ -1,22 +1,43 @@
 # travaulta
 
-topre pcb for the vault35
+travaulta is an EC (topre) pcb for mechvault's [Vault35](https://mechvault.net/products/vault-35-mini-keyboard) designed by calvin0563. The pcb supports a single bottomrow layout with the double 1.75u splitbars. Various plate files are available. Check the plate & hardware section for what you will need. In order to fit the topre pcb into the case, small modifications to some housings are necessary. Please refer to the extensive build guide by cia\_moonchild in order to learn how to make the assembled pcb fit into the vault35 case.
 
-  
-keyboard atelier
+[Build Guide!!!](https://imgur.com/a/L5vGjtF)
 
-  
-ciantha guide!
+## Layout
 
-galvy pcb edge cut
+![](https://github.com/calvin-mcd/travaulta/blob/main/Images/KLE.png)
 
-matthewdias\#2671  
+[Link](http://www.keyboard-layout-editor.com/#/gists/d333b15956554a98cf3ed6f06e2de3bf)
 
-ssbb\#9052
+## Images
 
-Cipulot\#8455  
+![](https://github.com/calvin-mcd/travaulta/blob/main/Images/top.png)  
+![](https://github.com/calvin-mcd/travaulta/blob/main/Images/bottom.png)  
+![](https://github.com/calvin-mcd/travaulta/blob/main/Images/calvin.jpg)
 
-  
-people interested in supporting the pcb early 
+## Firmware
 
-This project has been tested and confirmed to work. However, no-one involved in this project is responsible for any usage issues that may arise. Order at your own risk. Feel free to edit, modify and otherwise utilise these files.
+The basic EC firmware is ready to go and the source code is provided for tweaking any settings.
+
+## Plates & Hardware
+
+Plate files are available for OEM (original and deskey housings), Niz and Realforce RGB. Though Niz and Rgb have not been tested yet. Be sure to order the plate in 1.2mm thickness regardless of material.
+
+Furthermore, you will need 17x 10mm M2 screws and M2 nuts to assemble the pcb.
+
+## Disclaimer
+
+This PCB has been fully tested and confirmed to work. The members of the PCB development team are however not liable if you end up with a non-functional pcb. Order at your own risk. Support will not be provided but pull requests will be reviewed and possibly accepted.
+
+## License
+
+This project is released under the GPL v3 License. Please refer to the LICENCE file.
+
+## Credits
+
+big thanks go out to Cain both for the inspiration and the support! My topre work is heavily lifted of Cipulot\#8455's open source work. I could not have done it without these resources. So I want to thank both cipulot and matthewdias\#2671 for their direct input, feedback and help along the way. Much much appreciated!
+
+So many other thanks to go around, I fear I will forget people. There is Ciantha with their amazing guide! A whole bunch of early supporters that made the proto order possible. The keyboard Atelier discord for support. ssbb\#9052 with help with the firmware! And finally Alas/Sofia who decided to get a first GB for this on its feet!!
+
+Any questions, contact Calvin0563 on Discord. 

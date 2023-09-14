@@ -1,0 +1,532 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f1036608-8ee3-4d4c-9c49-3951607dce44)
+
+  (paper "A5")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 03a375f7-d367-445e-987c-823a2200e445)
+    (property "Reference" "H13" (at 69.215 45.5203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 48.0572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 20.955 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0c2a8d09-2927-4900-ab96-40daae5c5d8f)
+    (property "Reference" "H1" (at 43.815 20.1203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 22.6572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3549a609-90dd-4463-81c6-eed236b1147e)
+    (property "Reference" "H5" (at 43.815 45.5203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 48.0572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 65.405 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 38dacb27-5165-4097-9b40-0a54ebc7ef8c)
+    (property "Reference" "H16" (at 69.215 64.5703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 67.1072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 59.055 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3a7384dc-b6e7-481a-aa9e-957826c8c4d5)
+    (property "Reference" "H7" (at 43.815 58.2203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 60.7572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 40.005 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3dfda054-5783-456a-9f5e-0d52050f4078)
+    (property "Reference" "H4" (at 43.815 39.1703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 41.7072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 20.955 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9506f40e-d197-4b69-bd0a-584fcb262717)
+    (property "Reference" "H9" (at 69.215 20.1203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 22.6572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 65.405 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b564129-fc3e-4867-879e-2d6a6326935a)
+    (property "Reference" "H8" (at 43.815 64.5703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 67.1072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 65.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 52.705 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a6b42a13-ee05-4a7f-a0cd-fcc35eca0468)
+    (property "Reference" "H14" (at 69.215 51.8703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 54.4072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 33.655 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ab7ab629-f97c-46e0-af4a-610e9dc43526)
+    (property "Reference" "H3" (at 43.815 32.8203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 35.3572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 40.005 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b180a9c2-2378-445d-89f4-4851dcf6e455)
+    (property "Reference" "H12" (at 69.215 39.1703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 41.7072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 52.705 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bbb483f6-0f42-4591-8c41-c2275fdba21a)
+    (property "Reference" "H6" (at 43.815 51.8703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 54.4072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 52.705 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 27.305 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d9b29855-1459-429d-94a8-ca3d671e0813)
+    (property "Reference" "H10" (at 69.215 26.4703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 29.0072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 59.055 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e268a8d4-8a96-4ec1-9a06-68bb8a7cc2df)
+    (property "Reference" "H15" (at 69.215 58.2203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 60.7572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 71.755 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid eb4be9d8-69dd-4c5f-9e86-766bac5f8619)
+    (property "Reference" "H17" (at 69.215 70.9203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 73.4572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H17") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 66.675 33.655 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f10c81f5-a896-4a5b-a71a-057332c7b41f)
+    (property "Reference" "H11" (at 69.215 32.8203 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 69.215 35.3572 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 66.675 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 66.675 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 41.275 27.305 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fdf24fc6-6d15-492f-b1fe-bf56e97a2ec0)
+    (property "Reference" "H2" (at 43.815 26.4703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 43.815 29.0072 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 41.275 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.275 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "travaulta WKL"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+)
