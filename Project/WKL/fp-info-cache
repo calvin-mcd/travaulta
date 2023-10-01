@@ -1,4 +1,4 @@
-22942039393954644
+22945741146959109
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65904,6 +65904,20 @@ PCB antenna IFA inverted F bluetooth 2.4 GHz
 0
 51
 2
+PCM_marbastlib-xp-various
+CON_HytePro_M411P_Plug_1x04-P2.20mm_Horizontal_FlushMount
+HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
+HytePro magnetic connector
+0
+4
+4
+PCM_marbastlib-xp-various
+CON_HytePro_M411P_Receptacle_1x04-P2.20mm_Horizontal_FlushMount
+HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
+HytePro magnetic connector
+0
+4
+4
 PCM_marbastlib-xp-various
 CON_MJ-4PP-9
 TRRS Jack
