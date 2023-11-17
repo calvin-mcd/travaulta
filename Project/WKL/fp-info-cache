@@ -1,4 +1,4 @@
-22945741146959109
+22950005076285409
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65961,6 +65961,13 @@ LiIon LiPo battery charger management usb power path switch-mode step-down buck
 24
 24
 PCM_marbastlib-xp-various
+Nordic_AQFN-73-1EP_7x7mm_P0.5mm
+http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52%2Fdita%2Fnrf52%2Fchips%2Fnrf52840.html
+AQFN 7mm 
+0
+78
+74
+PCM_marbastlib-xp-various
 PNT_RKJXU1210006
 
 
@@ -94772,6 +94779,13 @@ connector Molex Pico-EZmate side entry
 0
 22
 4
+cipulot_parts
+PinHeader_RGB strip
+Through hole straight pin header, 1x03, 1.27mm pitch, single row
+Through hole pin header THT 1x03 1.27mm single row
+0
+3
+3
 cipulot_parts
 Pin_Small
 

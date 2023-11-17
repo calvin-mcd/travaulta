@@ -1753,10 +1753,10 @@
     (uuid fecdc166-db83-4f01-8e85-459c80c1259f)
   )
 
-  (rectangle (start 179.07 147.32) (end 204.47 165.1)
+  (rectangle (start 177.8 147.32) (end 203.2 165.1)
     (stroke (width 0) (type default))
     (fill (type none))
-    (uuid 8dcb260c-89ee-4efd-9264-f2ad9a29fad8)
+    (uuid f7cd2f17-422d-44c3-9579-18118c21cbd6)
   )
 
   (text "Weird Stuff FIx" (at 151.13 147.955 90)
@@ -1771,9 +1771,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6897cad9-cfbb-42cd-a82b-0d3113cf6910)
   )
-  (text "RGB Breakout" (at 184.15 151.13 0)
+  (text "RGB Breakout" (at 182.88 151.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 876791af-5524-4102-ae1b-4bf43102f637)
+    (uuid 892da06e-78bf-4fc4-9edd-7bb034fbfbf6)
   )
   (text "Voltage Regulator" (at 52.705 171.45 0)
     (effects (font (size 2 2)) (justify left bottom))
@@ -1855,6 +1855,20 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "RGB" (shape input) (at 189.23 157.48 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1ab7e6af-26ad-4839-88ce-af1bc3b8e5f5)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.5142 157.48 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "RGB" (shape input) (at 46.355 86.36 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 1cdae065-b19c-4612-8591-24ffa40df66a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 39.6392 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "BOOT1" (shape input) (at 46.355 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1e842ed5-6f03-4e21-818f-a1c73e774e0e)
@@ -1904,24 +1918,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "RGB" (shape input) (at 46.355 86.36 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 57d3b02d-954a-4c1a-8ecd-8122d08e14b9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 39.6392 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "XTAL0" (shape input) (at 46.355 43.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6b624297-6b24-44fe-bda6-2f8ce5939c80)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 38.4386 43.1006 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "RGB" (shape input) (at 190.5 158.75 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6da06c39-98b9-46f2-a5de-12694aaab308)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 183.7842 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2118,7 +2118,7 @@
     )
     (pin "1" (uuid e44c8716-e4ae-4dda-a5b0-91174b1dddcd))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0109") (unit 1)
         )
@@ -2148,7 +2148,7 @@
     (pin "2" (uuid 7e723496-c42f-4689-a01f-3f0671d17930))
     (pin "3" (uuid 74f1da64-17e6-43a9-9816-3012be7a8da8))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "Y1") (unit 1)
         )
@@ -2177,7 +2177,7 @@
     (pin "1" (uuid 73507003-d761-4fc7-959d-d7a4a3c824ac))
     (pin "2" (uuid bd63ca0b-d6bf-4a6f-a4d5-5855dfcdff28))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R24") (unit 1)
         )
@@ -2202,7 +2202,7 @@
     )
     (pin "1" (uuid 17d0997f-a0d4-450a-8d4c-dbaa609d3a45))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0115") (unit 1)
         )
@@ -2227,7 +2227,7 @@
     )
     (pin "1" (uuid d64795a6-2b55-4a0f-8144-276c798ef974))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0123") (unit 1)
         )
@@ -2253,9 +2253,44 @@
     (pin "1" (uuid 4d4035ea-cbb6-4b76-af32-dea49d82dc81))
     (pin "2" (uuid 428048b9-aedc-4a65-9ee5-80a58d7b3d36))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 189.23 154.94 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1e63e7fe-359b-400c-b5b2-28d4e022d510)
+    (property "Reference" "#PWR052" (at 182.88 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 186.055 154.94 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 189.23 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 189.23 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0004dd08-56b4-4bb4-a1c2-4dbafb22da91))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR052") (unit 1)
+        )
+      )
+      (project "travaulta rgb"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Memoria"
+        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -2282,7 +2317,7 @@
     (pin "1" (uuid 9772cbfd-8284-44b8-b139-1220e8cebdfe))
     (pin "2" (uuid 2784b302-6508-477f-a9d9-7efe85fecf9b))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R4") (unit 1)
         )
@@ -2307,7 +2342,7 @@
     )
     (pin "1" (uuid 4f796b35-df4c-4104-805f-5efa1207c94b))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0110") (unit 1)
         )
@@ -2336,46 +2371,9 @@
     (pin "1" (uuid b1cf8ed7-013f-46e3-8495-677f6de5eb45))
     (pin "2" (uuid e99a28e0-1bf9-4289-b1c3-80e49e0f1730))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 195.58 158.75 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 328a55a8-545c-4f61-b6a3-b4306c7f6123)
-    (property "Reference" "J5" (at 198.12 157.48 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Value" "ARGB" (at 198.12 160.02 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "cipulot_parts:PinHeader_RGB strip" (at 195.58 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 195.58 158.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8abce786-a82a-4feb-b675-36036c792064))
-    (pin "2" (uuid 1aee872d-4f06-4588-9caf-4451b73b6162))
-    (pin "3" (uuid 807d7de3-f409-4cb6-9058-2c13fff46494))
-    (instances
-      (project "the-nicholas-van"
-        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
-          (reference "J5") (unit 1)
-        )
-      )
-      (project "travaulta WKL"
-        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "Memoria"
-        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
-          (reference "J1") (unit 1)
         )
       )
     )
@@ -2398,7 +2396,7 @@
     )
     (pin "1" (uuid 3af84e5b-47c3-4a1e-a47a-e62085c1e482))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0126") (unit 1)
         )
@@ -2424,7 +2422,7 @@
     (pin "1" (uuid a3c8cd7d-3e59-4d23-9017-cca6ac20fdac))
     (pin "2" (uuid e6c3a4c7-8cae-48df-be2b-cdc78d66dcf8))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C1") (unit 1)
         )
@@ -2449,7 +2447,7 @@
     )
     (pin "1" (uuid c1ac0975-957c-453e-a441-8fc1d079ae18))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0111") (unit 1)
         )
@@ -2474,7 +2472,7 @@
     )
     (pin "1" (uuid 6c464274-30df-4aaf-9c3d-71f625ee3057))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0114") (unit 1)
         )
@@ -2499,7 +2497,7 @@
     )
     (pin "1" (uuid 6356867d-ca0e-4b8d-a319-1b081b753bc9))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR01") (unit 1)
         )
@@ -2524,7 +2522,7 @@
     )
     (pin "1" (uuid 87d42f90-f7a3-4e67-b291-6498700a9c1c))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0121") (unit 1)
         )
@@ -2549,7 +2547,7 @@
     )
     (pin "1" (uuid 97b129ad-251b-42e1-b9be-8c495cb0ebac))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0102") (unit 1)
         )
@@ -2574,7 +2572,7 @@
     )
     (pin "1" (uuid a3b05a16-e9bc-473a-b62d-afd8692465b3))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0105") (unit 1)
         )
@@ -2599,7 +2597,7 @@
     )
     (pin "1" (uuid d7705e69-5200-426e-8204-f71f4bce8d70))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0108") (unit 1)
         )
@@ -2675,7 +2673,7 @@
     (pin "8" (uuid 7006f462-adca-4525-88df-a1bfede6cfc1))
     (pin "9" (uuid 678edb26-62f1-4e5b-9791-f9ec6e12e274))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "U1") (unit 1)
         )
@@ -2706,7 +2704,7 @@
     (pin "1" (uuid 847ded40-36f1-489a-abab-2a7d3947dca7))
     (pin "2" (uuid f2077558-eae5-4db1-92ca-133d404cbb7d))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R3") (unit 1)
         )
@@ -2732,7 +2730,7 @@
     (pin "1" (uuid 06e8220b-f5af-4647-92e4-f739af942f54))
     (pin "2" (uuid 3817a109-b3fb-42e9-b170-9ecf80f2c5de))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C10") (unit 1)
         )
@@ -2757,7 +2755,7 @@
     )
     (pin "1" (uuid 80bb73b0-3ef2-426b-b909-ecd80e80950d))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0103") (unit 1)
         )
@@ -2782,7 +2780,7 @@
     )
     (pin "1" (uuid 70ab8291-d8e4-458e-b7fa-ace2760d129c))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0151") (unit 1)
         )
@@ -2807,7 +2805,7 @@
     )
     (pin "1" (uuid acda94ce-7713-4024-9ca0-a4ce3ba451f4))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0112") (unit 1)
         )
@@ -2833,7 +2831,7 @@
     (pin "1" (uuid 6a7354ef-c05f-40b3-a829-b3d4394ebd1e))
     (pin "2" (uuid 9df31cfa-6866-41e1-800b-4c50a775dada))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C7") (unit 1)
         )
@@ -2859,7 +2857,7 @@
     (pin "1" (uuid da0d315b-40cc-4264-bece-d4abe1d67edb))
     (pin "2" (uuid b5426009-2c2a-4968-9a4e-3c3dd4dde292))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "SW38") (unit 1)
         )
@@ -2892,7 +2890,7 @@
     (pin "3" (uuid 329196c2-0d8e-4fb3-9775-f80e3df361ce))
     (pin "4" (uuid 5bafe770-d68b-4f7d-93d3-4bf375650ebc))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "D1") (unit 1)
         )
@@ -2917,7 +2915,7 @@
     )
     (pin "1" (uuid cc83f791-6dc9-4869-b60f-6c1f86aa9e72))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0106") (unit 1)
         )
@@ -2942,7 +2940,7 @@
     )
     (pin "1" (uuid 89dc63a1-1294-48ea-a28c-ae24ab420584))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0125") (unit 1)
         )
@@ -2968,7 +2966,7 @@
     (pin "1" (uuid f0ec819c-1333-41f3-80ea-4bfc7b3579e4))
     (pin "2" (uuid 784d5223-6e24-4234-af11-7480fcb65d5b))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C5") (unit 1)
         )
@@ -2995,7 +2993,7 @@
     (pin "2" (uuid 4f0cc4a5-8608-4239-84a0-a7e22d504a71))
     (pin "3" (uuid 929f2965-1f17-470c-a818-f1c2b6b39535))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "U2") (unit 1)
         )
@@ -3020,7 +3018,7 @@
     )
     (pin "1" (uuid 46269c79-df7e-4836-aa82-568b23070504))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0107") (unit 1)
         )
@@ -3046,7 +3044,7 @@
     (pin "1" (uuid 4f346d79-386a-4e07-94d0-7409999bd5aa))
     (pin "2" (uuid 0bbbe291-31f6-4883-b7c7-2cb091bb5485))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C4") (unit 1)
         )
@@ -3071,44 +3069,9 @@
     )
     (pin "1" (uuid e9a3f191-b82f-4048-9b6c-49f89ae5e01b))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0127") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 190.5 161.29 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 92fef69f-6481-477b-b412-c586868494fa)
-    (property "Reference" "#PWR053" (at 194.31 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 187.325 161.29 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 190.5 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 190.5 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ddf30342-fabf-4d34-a8d2-598ea1d84dcc))
-    (instances
-      (project "the-nicholas-van"
-        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
-          (reference "#PWR053") (unit 1)
-        )
-      )
-      (project "travaulta WKL"
-        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "Memoria"
-        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
-          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -3131,7 +3094,7 @@
     )
     (pin "1" (uuid 382806c5-a1d4-4235-9358-28a2d2445f0d))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0104") (unit 1)
         )
@@ -3157,7 +3120,7 @@
     (pin "1" (uuid c8d1097a-c060-4c32-b587-515c64568f43))
     (pin "2" (uuid e8a03011-2130-4f0e-94a3-69946b866569))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C8") (unit 1)
         )
@@ -3183,7 +3146,7 @@
     (pin "1" (uuid 4148aebb-d8af-4796-8e85-d44230d105cc))
     (pin "2" (uuid 3aa4a7c8-4a6f-41f3-8e7b-a2ce4da19e97))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "F_USBC1") (unit 1)
         )
@@ -3208,7 +3171,7 @@
     )
     (pin "1" (uuid 5232be7f-5b6f-48bb-b192-84b6856c7ba0))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0118") (unit 1)
         )
@@ -3233,7 +3196,7 @@
     )
     (pin "1" (uuid 0fc0fc94-3580-4ce9-8749-a403c374cc46))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0122") (unit 1)
         )
@@ -3259,7 +3222,7 @@
     (pin "1" (uuid 4504118f-780b-47e5-a32d-f6742e7ffc4d))
     (pin "2" (uuid 50f43d21-0291-4e51-be93-d172d3201314))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C9") (unit 1)
         )
@@ -3284,7 +3247,7 @@
     )
     (pin "1" (uuid f3dc9d25-8913-417c-91d2-438eddcf9cbd))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0124") (unit 1)
         )
@@ -3313,7 +3276,7 @@
     (pin "1" (uuid 640ed6a1-fb60-4247-8427-2cf45bc77146))
     (pin "2" (uuid 5e83659a-0662-423b-ab1b-d47c51721c8f))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R7") (unit 1)
         )
@@ -3342,7 +3305,7 @@
     (pin "1" (uuid 7d05cbc0-990f-4422-a66b-6c07e581fa3d))
     (pin "2" (uuid 4c5caadf-0c59-4c11-9d3d-535e4fcc0916))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R2") (unit 1)
         )
@@ -3367,7 +3330,7 @@
     )
     (pin "1" (uuid 5167da98-2dc7-447b-b153-3d9426d026e6))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0101") (unit 1)
         )
@@ -3392,9 +3355,46 @@
     )
     (pin "1" (uuid b299b167-0c1d-43fd-b7b5-63283f8d4c63))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#FLG0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 194.31 157.48 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid c5215651-252d-4016-a09c-a39d5c60e057)
+    (property "Reference" "J5" (at 196.85 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "ARGB" (at 196.85 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" (at 194.31 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 194.31 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1cb89f99-7856-46bd-8f00-5dfc91016de1))
+    (pin "2" (uuid 8f5d165a-4a4e-4805-ab8d-854fab7d7ff4))
+    (pin "3" (uuid 1d10723b-01f0-4f6b-80a9-31c6b6e5e8fe))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "J5") (unit 1)
+        )
+      )
+      (project "travaulta rgb"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "Memoria"
+        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3417,7 +3417,7 @@
     )
     (pin "1" (uuid 0234cea5-ee9b-436e-bfdf-dceb5327b083))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0113") (unit 1)
         )
@@ -3434,7 +3434,7 @@
     (property "Value" "TYPEC-304YSSW-ACP16" (at 19.05 131.445 90)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "cipulot_parts:XUNPU-TYPEC-312DSS-ACP16-Assembly" (at 29.21 130.175 0)
+    (property "Footprint" "cipulot_parts:TYPEC-304YSSW-ACP16" (at 29.21 130.175 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 29.21 130.175 0)
@@ -3457,7 +3457,7 @@
     (pin "8" (uuid 0f70c73f-6c0b-405c-9de6-310575e723cb))
     (pin "9" (uuid 9a181717-ba89-4912-b65b-7ab8bde952f4))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "USB1") (unit 1)
         )
@@ -3483,7 +3483,7 @@
     (pin "1" (uuid e27c86c2-9e83-48e7-a57d-180fdf667fa8))
     (pin "2" (uuid a9a232cb-b204-42ef-bfc4-da75d53510c2))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "C6") (unit 1)
         )
@@ -3512,7 +3512,7 @@
     (pin "1" (uuid 3ae0e182-451b-415b-a34e-e607df4cfbd7))
     (pin "2" (uuid 6057d61a-ce86-44e8-91c3-a199eb503820))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R18") (unit 1)
         )
@@ -3538,7 +3538,7 @@
     (pin "1" (uuid ebfb40eb-2c8b-40ea-b756-47b53e46c599))
     (pin "2" (uuid a0869177-78ff-4f07-9b8e-2463e4eda69e))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R6") (unit 1)
         )
@@ -3563,7 +3563,7 @@
     )
     (pin "1" (uuid d14711b4-3c5e-4b1e-b7d0-430bab250ddc))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0117") (unit 1)
         )
@@ -3588,44 +3588,9 @@
     )
     (pin "1" (uuid d3e6c0a2-df6a-4451-9343-05e4be9dcddb))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0150") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 190.5 156.21 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e14e4fb7-42ca-4347-9b6c-7336166f73e7)
-    (property "Reference" "#PWR052" (at 184.15 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 187.325 156.21 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 190.5 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 190.5 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ee3c8d23-0caf-47e3-a95e-1a959bc6cbdc))
-    (instances
-      (project "the-nicholas-van"
-        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "travaulta WKL"
-        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "Memoria"
-        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
-          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -3652,9 +3617,44 @@
     (pin "1" (uuid 2f07dda5-fdb5-4541-88d5-3c021eef36ef))
     (pin "2" (uuid 918d67af-fad8-42c5-9b2e-2d5ee113047c))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 189.23 160.02 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6c70ef9-640b-4f88-a21c-4c669034b705)
+    (property "Reference" "#PWR053" (at 193.04 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 186.055 160.02 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 189.23 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 189.23 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8c4abb77-62f1-4cc2-9b08-bd3f48b7ca87))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+      (project "travaulta rgb"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "Memoria"
+        (path "/ee27d19c-8dca-4ac8-a760-6dfd54d28071"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -3677,7 +3677,7 @@
     )
     (pin "1" (uuid 79682787-a2fa-4deb-bb81-9cc03c89b551))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0120") (unit 1)
         )
@@ -3702,7 +3702,7 @@
     )
     (pin "1" (uuid 15e41be1-642b-4c7b-aa5a-2683ccf90ebe))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#FLG0102") (unit 1)
         )
@@ -3727,7 +3727,7 @@
     )
     (pin "1" (uuid fc0cf305-e3ae-4002-9c9d-243d5a5e9510))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0119") (unit 1)
         )
@@ -3752,7 +3752,7 @@
     )
     (pin "1" (uuid 488871aa-a485-4453-84cd-d2d957ddc9ab))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0149") (unit 1)
         )
@@ -3777,7 +3777,7 @@
     )
     (pin "1" (uuid 5f1e81b8-f7df-4ad7-90e8-889c30bbc8a0))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "#PWR0116") (unit 1)
         )
@@ -3806,7 +3806,7 @@
     (pin "1" (uuid d7697f98-029d-4232-838d-233881b3d773))
     (pin "2" (uuid fb56e2f1-a5b5-48a4-b03d-63b3ca784e47))
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc"
           (reference "R8") (unit 1)
         )
@@ -3825,7 +3825,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc" (page "4"))
       )
     )
@@ -3842,7 +3842,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc" (page "3"))
       )
     )
@@ -3855,11 +3855,11 @@
     (property "Sheetname" "matrix" (at 218.44 10.9884 0)
       (effects (font (size 2 2)) (justify left bottom))
     )
-    (property "Sheetfile" "matrix WKL.kicad_sch" (at 218.44 57.7346 0)
+    (property "Sheetfile" "matrix.kicad_sch" (at 218.44 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "travaulta WKL"
+      (project "travaulta rgb"
         (path "/690df46b-b605-4617-b545-6aaced86d0fc" (page "2"))
       )
     )
