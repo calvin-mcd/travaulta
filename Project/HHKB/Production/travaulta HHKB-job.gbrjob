@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2024-01-31T22:54:35+01:00"
+    "CreationDate": "2024-01-31T22:55:10+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "travaulta WKL",
-      "GUID": "74726176-6175-46c7-9461-20574b4c2e6b",
+      "Name": "travaulta HHKB",
+      "GUID": "74726176-6175-46c7-9461-2048484b422e",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 208.35,
-      "Y": 75.8452
+      "X": 209.75,
+      "Y": 76.4
     },
     "LayerNumber": 4,
     "BoardThickness": 1.59,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.05,
-      "PadToTrack": 0.05,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.2,
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "travaulta WKL-F_Cu.gbr",
+      "Path": "travaulta HHKB-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-In1_Cu.gbr",
+      "Path": "travaulta HHKB-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-In2_Cu.gbr",
+      "Path": "travaulta HHKB-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-B_Cu.gbr",
+      "Path": "travaulta HHKB-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-F_Paste.gbr",
+      "Path": "travaulta HHKB-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-B_Paste.gbr",
+      "Path": "travaulta HHKB-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-F_Silkscreen.gbr",
+      "Path": "travaulta HHKB-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-B_Silkscreen.gbr",
+      "Path": "travaulta HHKB-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta WKL-F_Mask.gbr",
+      "Path": "travaulta HHKB-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta WKL-B_Mask.gbr",
+      "Path": "travaulta HHKB-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta WKL-Edge_Cuts.gbr",
+      "Path": "travaulta HHKB-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
