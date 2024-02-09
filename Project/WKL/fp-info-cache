@@ -1,4 +1,4 @@
-22950005076285409
+22958758778252364
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64729,6 +64729,13 @@ alps tht dip DP3T
 8
 8
 PCM_marbastlib-various
+SW_T1A2QR
+12V 50mA SMD pushbutton, available at LCSC/JLCPCB (C100056)
+SMD pushbutton
+0
+4
+2
+PCM_marbastlib-various
 SW_kailh_big_1u
 Footprint for Kailh "Big Switch Series" style switches
 
@@ -64787,21 +64794,21 @@ mousebites hex
 PCM_marbastlib-various
 nRF52840_holyiot_18010
 Module containing a nRF52840 and most passives and antenna
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-various
 nRF52840_holyiot_18010_HS_simple
 Module containing a nRF52840 and most passives and antenna, with only hand solderable pads
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 37
 37
 PCM_marbastlib-various
 nRF52840_moko_mk08
-
-
+Module containing a nRF52840 and most passives and antenna
+moko mk08a mk08b nRF52840 bluetooth low energy 
 0
 60
 58
@@ -65961,13 +65968,6 @@ LiIon LiPo battery charger management usb power path switch-mode step-down buck
 24
 24
 PCM_marbastlib-xp-various
-Nordic_AQFN-73-1EP_7x7mm_P0.5mm
-http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52%2Fdita%2Fnrf52%2Fchips%2Fnrf52840.html
-AQFN 7mm 
-0
-78
-74
-PCM_marbastlib-xp-various
 PNT_RKJXU1210006
 
 
@@ -65989,23 +65989,37 @@ stm32 arm wireless bluetooth low energy ble zigbee
 86
 86
 PCM_marbastlib-xp-various
+nRF52840_E73-2G4M08S1C
+Module containing a nRF52840 and most passives and antenna
+ebyte e73 2G4M08S1C nRF52840 bluetooth low energy 
+0
+43
+43
+PCM_marbastlib-xp-various
+nRF52840_E73-2G4M08S1C_simple
+Module containing a nRF52840 and most passives and antenna
+ebyte e73 2G4M08S1C nRF52840 bluetooth low energy 
+0
+28
+28
+PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS_all
 Module containing a nRF52840 and most passives and antenna, with a cutout for hand soldering of the bottom IO
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-xp-various
 nRF52840_moko_mk08_HS
-
-
+Module containing a nRF52840 and most passives and antenna
+moko mk08a mk08b nRF52840 bluetooth low energy 
 0
 60
 58
@@ -95544,6 +95558,20 @@ chil
 0
 cipulot_parts
 costar_stab_2u
+
+
+0
+0
+0
+cipulot_parts
+costar_stab_6u
+
+
+0
+0
+0
+cipulot_parts
+costar_stab_7u
 
 
 0
