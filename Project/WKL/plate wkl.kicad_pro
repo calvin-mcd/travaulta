@@ -412,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "travaulta WKL.kicad_pro",
+    "filename": "plate wkl.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -465,7 +465,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "travaulta prototype.step",
+      "step": "travaulta WLK plate.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
