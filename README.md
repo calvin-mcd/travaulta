@@ -1,6 +1,6 @@
 # travaulta
 
-travaulta is an EC (topre) pcb for mechvault's [Vault35](https://mechvault.net/products/vault-35-mini-keyboard) designed by calvin0563. The pcb supports a single bottomrow layout with the double 1.75u splitbars. Various plate files are available. Check the plate & hardware section for what you will need. In order to fit the topre pcb into the case, small modifications to some housings are necessary. Please refer to the extensive build guide by cia\_moonchild in order to learn how to make the assembled pcb fit into the vault35 case.
+travaulta is an EC (topre) pcb for mechvault's [Vault35](https://mechvault.net/products/vault-35-mini-keyboard) designed by calvin0563. The pcb supports a single bottomrow layout with the double 1.75u splitbars. Firmware source code and the OEM plate file are available in their respective folders. In order to fit the topre pcb into the case, small modifications to some housings are necessary. Please refer to the extensive build guide by cia\_moonchild in order to learn how to make the assembled pcb fit into the vault35 case.
 
 [Build Guide!!!](https://imgur.com/a/L5vGjtF)
 
@@ -22,7 +22,7 @@ The basic EC firmware is ready to go and the source code is provided for tweakin
 
 ## Plates & Hardware
 
-Plate files are available for OEM (original and deskey housings), Niz and Realforce RGB. Though Niz and Rgb have not been tested yet. Be sure to order the plate in 1.2mm thickness regardless of material.
+The plate file is OEM housing (so original, deskey, klc, pbb housings should all work). Be sure to order the plate in 1.2mm thickness regardless of material.
 
 Furthermore, you will need 17x 10mm M2 screws and M2 nuts to assemble the pcb.
 
