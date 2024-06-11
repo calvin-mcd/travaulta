@@ -1,4 +1,4 @@
-22948305092582549
+23156914565124632
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64057,6 +64057,20 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PCM_marbastlib-choc
+LED_choc_1206R
+Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
+kailh choc 1206 rearmount rear mount led rgb backlight 
+0
+4
+4
+PCM_marbastlib-choc
+LED_choc_1206R-ROT
+Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
+kailh choc 1206 rearmount rear mount led rgb backlight
+0
+4
+4
+PCM_marbastlib-choc
 LED_choc_6028R
 Add-on for regular choc-footprints with 6028 reverse mount LED
 kailh choc 6028 rearmount rear mount led rgb backlight
@@ -64099,28 +64113,28 @@ Footprint for Kailh Choc style switches
 2
 2
 PCM_marbastlib-choc
-SW_choc_v1_HS_1.5u
+SW_choc_v1_HS_CPG135001S30_1.5u
 Hotswap footprint for Kailh Choc style switches
 
 0
 6
 2
 PCM_marbastlib-choc
-SW_choc_v1_HS_1.25u
+SW_choc_v1_HS_CPG135001S30_1.25u
 Hotswap footprint for Kailh Choc style switches
 
 0
 6
 2
 PCM_marbastlib-choc
-SW_choc_v1_HS_1.75u
+SW_choc_v1_HS_CPG135001S30_1.75u
 Hotswap footprint for Kailh Choc style switches
 
 0
 6
 2
 PCM_marbastlib-choc
-SW_choc_v1_HS_1u
+SW_choc_v1_HS_CPG135001S30_1u
 Hotswap footprint for Kailh Choc style switches
 
 0
@@ -64210,6 +64224,20 @@ cherry MX 3mm led backlight
 0
 2
 2
+PCM_marbastlib-mx
+LED_MX_1206R
+Add-on for regular MX-footprints with MHT151RGBCT 1206 reverse mount LED
+cherry MX 1206 rearmount rear mount led rgb backlight
+0
+4
+4
+PCM_marbastlib-mx
+LED_MX_1206R-ROT
+Add-on for regular MX-footprints with MHT151RGBCT 1206 reverse mount LED
+cherry MX 1206 rearmount rear mount led rgb backlight
+0
+4
+4
 PCM_marbastlib-mx
 LED_MX_6028R
 Add-on for regular MX-footprints with 6028 reverse mount LED
@@ -64477,49 +64505,49 @@ cherry mx switch
 2
 2
 PCM_marbastlib-mx
-SW_MX_HS_1.5u
+SW_MX_HS_CPG151101S11_1.5u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_1.25u
+SW_MX_HS_CPG151101S11_1.25u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_1.75u
+SW_MX_HS_CPG151101S11_1.75u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_1.75u_STP_1.5
+SW_MX_HS_CPG151101S11_1.75u_STP_1.5
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_1.75u_STP_1.25
+SW_MX_HS_CPG151101S11_1.75u_STP_1.25
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_1u
+SW_MX_HS_CPG151101S11_1u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
 6
 2
 PCM_marbastlib-mx
-SW_MX_HS_S_1u
+SW_MX_HS_S_CPG151101S11_1u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
@@ -64554,7 +64582,21 @@ HytePro magnetic connector
 4
 4
 PCM_marbastlib-various
+CON_HytePro_M411P_Plug_1x04-P2.20mm_Horizontal_FlushMount
+HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
+HytePro magnetic connector
+0
+4
+4
+PCM_marbastlib-various
 CON_HytePro_M411P_Receptacle_1x04-P2.20mm_Horizontal
+HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
+HytePro magnetic connector
+0
+4
+4
+PCM_marbastlib-various
+CON_HytePro_M411P_Receptacle_1x04-P2.20mm_Horizontal_FlushMount
 HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
 HytePro magnetic connector
 0
@@ -64574,6 +64616,13 @@ tag connect programming header pogo pins
 0
 6
 6
+PCM_marbastlib-various
+LED_1206R
+rear-mount SMD MHT151RGBCT 1206 RGB LED
+LED RGB 1206 rear mount reverse
+0
+4
+4
 PCM_marbastlib-various
 LED_6028R
 rear-mount SMD 6028 RGB LED
@@ -64659,6 +64708,13 @@ connector Molex Pico-EZmate side entry
 20
 7
 PCM_marbastlib-various
+PNT_RKJXU1210006
+
+
+0
+3
+1
+PCM_marbastlib-various
 QFN-60_EP_7x7_Pitch0.4mm
 QFN-60 package accroding to IS31FL3741A datasheets
 
@@ -64729,6 +64785,13 @@ alps tht dip DP3T
 8
 8
 PCM_marbastlib-various
+SW_T1A2QR
+12V 50mA SMD pushbutton, available at LCSC/JLCPCB (C100056)
+SMD pushbutton
+0
+4
+2
+PCM_marbastlib-various
 SW_kailh_big_1u
 Footprint for Kailh "Big Switch Series" style switches
 
@@ -64785,23 +64848,37 @@ mousebites hex
 0
 0
 PCM_marbastlib-various
+nRF52840_E73-2G4M08S1C
+Module containing a nRF52840 and most passives and antenna
+ebyte e73 2G4M08S1C nRF52840 bluetooth low energy 
+0
+43
+43
+PCM_marbastlib-various
+nRF52840_E73-2G4M08S1C_simple
+Module containing a nRF52840 and most passives and antenna
+ebyte e73 2G4M08S1C nRF52840 bluetooth low energy 
+0
+28
+28
+PCM_marbastlib-various
 nRF52840_holyiot_18010
 Module containing a nRF52840 and most passives and antenna
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-various
 nRF52840_holyiot_18010_HS_simple
 Module containing a nRF52840 and most passives and antenna, with only hand solderable pads
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 37
 37
 PCM_marbastlib-various
 nRF52840_moko_mk08
-
-
+Module containing a nRF52840 and most passives and antenna
+moko mk08a mk08b nRF52840 bluetooth low energy 
 0
 60
 58
@@ -64889,20 +64966,6 @@ cherry mx alps SKCM SKCL switch
 0
 4
 2
-PCM_marbastlib-xp-choc
-LED_choc_1206R
-Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
-kailh choc 1206 rearmount rear mount led rgb backlight 
-0
-4
-4
-PCM_marbastlib-xp-choc
-LED_choc_1206R-ROT
-Add-on for regular choc-footprints with MHT151RGBCT 1206 reverse mount LED
-kailh choc 1206 rearmount rear mount led rgb backlight
-0
-4
-4
 PCM_marbastlib-xp-choc
 LED_choc_WS2812_2020
 Add-on for regular choc-footprints with WS2812_2020
@@ -65009,33 +65072,131 @@ Footprint for Kailh Choc v2 style switches
 3
 3
 PCM_marbastlib-xp-choc
-SW_choc_v2_HS_1.5u
+SW_choc_v2_HS_CPG135001S30_1.5u
 Hotswap footprint for Kailh Choc v2 style switches
 
 0
 7
 3
 PCM_marbastlib-xp-choc
-SW_choc_v2_HS_1.25u
+SW_choc_v2_HS_CPG135001S30_1.25u
 Hotswap footprint for Kailh Choc v2 style switches
 
 0
 7
 3
 PCM_marbastlib-xp-choc
-SW_choc_v2_HS_1.75u
+SW_choc_v2_HS_CPG135001S30_1.75u
 Hotswap footprint for Kailh Choc v2 style switches
 
 0
 7
 3
 PCM_marbastlib-xp-choc
-SW_choc_v2_HS_1u
+SW_choc_v2_HS_CPG135001S30_1u
 Hotswap footprint for Kailh Choc v2 style switches
 
 0
 7
 3
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_1206R
+Add-on for Gateron KS33 footprints with MHT151RGBCT 1206 reverse mount LED
+Gateron KS33 1206 rearmount rear mount led rgb backlight 
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_1206R-ROT
+Add-on for Gateron KS33 footprints with MHT151RGBCT 1206 reverse mount LED
+Gateron KS33 1206 rearmount rear mount led rgb backlight 
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_6028R
+Add-on for Gateron KS33 footprints with with 6028 reverse mount LED
+Gateron KS33 6028 rearmount rear mount led rgb backlight
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_6028R-ROT
+Add-on for Gateron KS33 footprints with with 6028 reverse mount LED
+Gateron KS33 6028 rearmount rear mount led rgb backlight
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_WS2812_2020
+Add-on for Gateron KS33 footprints with WS2812-2020 reverse mount LED (handsolder only)
+Gateron KS33 WS2812 2020 rearmount rear mount led rgb backlight 
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+LED_KS33_WS2812_2020-ROT
+Add-on for Gateron KS33 footprints with WS2812-2020 reverse mount LED (handsolder only)
+Gateron KS33 WS2812 2020 rearmount rear mount led rgb backlight 
+0
+4
+4
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_1.5u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_1.25u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_1.75u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_1u
+Footprint for Gateron KS33 switches
+
+0
+2
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_HS_KS-2P02B01-02_1.5u
+Hotswap footprint for Gateron KS33 switches
+
+0
+6
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_HS_KS-2P02B01-02_1.25u
+Hotswap footprint for Gateron KS33 switches
+
+0
+6
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_HS_KS-2P02B01-02_1.75u
+Hotswap footprint for Gateron KS33 switches
+
+0
+6
+2
+PCM_marbastlib-xp-gateron_lp
+SW_KS33_HS_KS-2P02B01-02_HS_1u
+Hotswap footprint for Gateron KS33 switches
+
+0
+6
+2
 PCM_marbastlib-xp-hitek
 SW_HiTek_Mount_1.5u
 Footprint for Hi-Tek Series 725 ("Space Invader") Switches
@@ -65107,20 +65268,6 @@ Hi-Tek hitek space invader switch keyboard 725
 4
 2
 PCM_marbastlib-xp-mx
-LED_MX_1206R
-Add-on for regular MX-footprints with MHT151RGBCT 1206 reverse mount LED
-cherry MX 1206 rearmount rear mount led rgb backlight
-0
-4
-4
-PCM_marbastlib-xp-mx
-LED_MX_1206R-ROT
-Add-on for regular MX-footprints with MHT151RGBCT 1206 reverse mount LED
-cherry MX 1206 rearmount rear mount led rgb backlight
-0
-4
-4
-PCM_marbastlib-xp-mx
 LED_MX_WS2812_2020
 Add-on for regular MX-footprints with WS2812_2020
 cherry MX WS2812 2020 rearmount rear mount led rgb backlight
@@ -65141,6 +65288,48 @@ cherry mx pcb plate break
 0
 0
 0
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1.5u
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1.25u
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1.75u
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1.75u_STP_1.5
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1.75u_STP_1.25
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
+PCM_marbastlib-xp-mx
+SW_MX_HS_KS-2P02B01-01_1u
+Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket
+
+0
+6
+2
 PCM_marbastlib-xp-mx
 SW_MX_Reversible_1u
 Reversible footprint for Cherry MX style switches
@@ -65905,20 +66094,6 @@ PCB antenna IFA inverted F bluetooth 2.4 GHz
 51
 2
 PCM_marbastlib-xp-various
-CON_HytePro_M411P_Plug_1x04-P2.20mm_Horizontal_FlushMount
-HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
-HytePro magnetic connector
-0
-4
-4
-PCM_marbastlib-xp-various
-CON_HytePro_M411P_Receptacle_1x04-P2.20mm_Horizontal_FlushMount
-HytePro M411P magnetic connector footprint (4 pin) Link: https://www.hyte.pro/product/m411p.html
-HytePro magnetic connector
-0
-4
-4
-PCM_marbastlib-xp-various
 CON_MJ-4PP-9
 TRRS Jack
 TRRS jack 3.5mm headphone connector
@@ -65931,13 +66106,6 @@ Reversible TRRS Jack
 TRRS jack 3.5mm headphone connector
 0
 8
-4
-PCM_marbastlib-xp-various
-LED_1206R
-rear-mount SMD MHT151RGBCT 1206 RGB LED
-LED RGB 1206 rear mount reverse
-0
-4
 4
 PCM_marbastlib-xp-various
 LED_WS2812_2020_rearmount
@@ -65961,19 +66129,33 @@ LiIon LiPo battery charger management usb power path switch-mode step-down buck
 24
 24
 PCM_marbastlib-xp-various
-Nordic_AQFN-73-1EP_7x7mm_P0.5mm
-http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52%2Fdita%2Fnrf52%2Fchips%2Fnrf52840.html
-AQFN 7mm 
+Molex_Pico-EZmate_HC_208294-0020_1x02-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0020 (https://www.molex.com/en-us/products/part-detail/2082940020)
+connector Molex Pico-EZmate side entry
 0
-78
-74
-PCM_marbastlib-xp-various
-PNT_RKJXU1210006
-
-
-0
+16
 3
-1
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0030_1x03-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940030)
+connector Molex Pico-EZmate side entry
+0
+17
+4
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0040_1x04-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940040)
+connector Molex Pico-EZmate side entry
+0
+18
+5
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0050_1x05-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940040)
+connector Molex Pico-EZmate side entry
+0
+19
+6
 PCM_marbastlib-xp-various
 PNT_psp1000
 Footprint for a PSP-1000 joystick
@@ -65989,23 +66171,30 @@ stm32 arm wireless bluetooth low energy ble zigbee
 86
 86
 PCM_marbastlib-xp-various
+XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal
+XUNPU FPC connector, 16 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
+XUNPU  fpc FPC-05F-16PH20
+0
+18
+17
+PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-xp-various
 nRF52840_holyiot_18010_HS_all
 Module containing a nRF52840 and most passives and antenna, with a cutout for hand soldering of the bottom IO
-holyiot 18010 bluetooth low energy 
+holyiot 18010 nRF52840 bluetooth low energy 
 0
 55
 55
 PCM_marbastlib-xp-various
 nRF52840_moko_mk08_HS
-
-
+Module containing a nRF52840 and most passives and antenna
+moko mk08a mk08b nRF52840 bluetooth low energy 
 0
 60
 58
@@ -91910,6 +92099,20 @@ Arduino Pro Mini
 28
 28
 cipulot_parts
+BQ25672RQMR
+
+
+0
+29
+29
+cipulot_parts
+Breakaway_Tabs
+
+
+0
+0
+0
+cipulot_parts
 CON_TC2030_outlined
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
 tag connect programming header pogo pins
@@ -91951,6 +92154,20 @@ Cherry-MX-Low-Profile
 0
 2
 2
+cipulot_parts
+Cipulot_Logo_Exposed_Copper
+
+
+0
+0
+0
+cipulot_parts
+Cipulot_Logo_Silk
+
+
+0
+0
+0
 cipulot_parts
 Cipulot_all_info
 
@@ -92134,6 +92351,34 @@ Epson_TSX-3225
 4
 4
 cipulot_parts
+FLXANTIPODELOGO
+
+
+0
+0
+0
+cipulot_parts
+FLXANTIPODELOGOFCU
+
+
+0
+0
+0
+cipulot_parts
+FLXANTIPODELOGOMASK
+
+
+0
+0
+0
+cipulot_parts
+FabDrawing-4Layer-Metric
+
+
+0
+0
+0
+cipulot_parts
 Fuse_0805
 SMT, 2012, 0805
 SMT, 2012, 0805
@@ -92155,7 +92400,14 @@ HOLE_M2
 0
 0
 cipulot_parts
-HOLE_M2_RF
+HOLE_M2_MNK
+
+
+0
+0
+0
+cipulot_parts
+HOLE_M2_RF_Caps
 
 
 0
@@ -92168,6 +92420,13 @@ HOLE_M2_TH
 0
 0
 0
+cipulot_parts
+HRO-TYPE-C-31-D-09
+
+
+0
+20
+20
 cipulot_parts
 HRO-TYPE-C-31-M-08B
 
@@ -92203,6 +92462,13 @@ HRO-TYPE-C-31-M-13
 0
 16
 13
+cipulot_parts
+HRO-TYPE-C-31-M-13C
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
 cipulot_parts
 Header-6-Pin-ZigZag
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
@@ -92336,6 +92602,13 @@ Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
+cipulot_parts
+IPX 4 Pole Safesolution
+Through hole straight pin header, 2x02, 2.54mm pitch, double rows
+Through hole pin header THT 2x02 2.54mm double row
+0
+4
+4
 cipulot_parts
 IronMan
 
@@ -92624,9 +92897,23 @@ LED-6028
 2
 2
 cipulot_parts
+LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020
+
+
+0
+4
+4
+cipulot_parts
 LED_3mm
 
 
+0
+2
+2
+cipulot_parts
+LED_1206_MHT151C
+LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode reverse
 0
 2
 2
@@ -92672,6 +92959,13 @@ QFP 0.5
 0
 48
 48
+cipulot_parts
+L_TDK_VLCF4020
+
+
+0
+2
+2
 cipulot_parts
 Legends
 
@@ -94780,6 +95074,20 @@ connector Molex Pico-EZmate side entry
 22
 4
 cipulot_parts
+PicoEZMate_5-Reinforced-Lite
+Molex Pico-EZmate series connector, 78171-0005 (http://www.molex.com/pdm_docs/sd/781710002_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-EZmate side entry
+0
+25
+5
+cipulot_parts
+PinHeader_RGB strip
+Through hole straight pin header, 1x03, 1.27mm pitch, single row
+Through hole pin header THT 1x03 1.27mm single row
+0
+3
+3
+cipulot_parts
 Pin_Small
 
 
@@ -94821,6 +95129,13 @@ PushButton_6x6mm_TH_Pretty
 0
 4
 4
+cipulot_parts
+QFN-32_L4.0-W4.0-P0.40-BL-EP2.7
+
+
+0
+33
+33
 cipulot_parts
 QFN-44-1EP_7x7mm_Pitch0.5mm
 UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
@@ -94969,6 +95284,13 @@ connector JST ZH
 15
 14
 cipulot_parts
+SK6803-MINI-E
+
+
+0
+4
+4
+cipulot_parts
 SK6812-MINI-E
 
 
@@ -94998,6 +95320,13 @@ SKQGADE010
 4
 cipulot_parts
 SM0805D
+
+
+0
+2
+2
+cipulot_parts
+SMD_L7.1-W6.5-P5.60
 
 
 0
@@ -95059,6 +95388,27 @@ SSD1306-0.91-OLED-4pin-128x32
 0
 4
 4
+cipulot_parts
+ST-0277D00-052-142
+
+usb usb-c 2.0 pd
+0
+5
+4
+cipulot_parts
+STBB1-APUR
+DFN, 10 Pin (https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+15
+11
+cipulot_parts
+SW-TH_SS-12D10-G3
+
+
+0
+3
+3
 cipulot_parts
 SW_3.5x6.0_TH
 
@@ -95326,19 +95676,26 @@ TRRS_Jumper
 6
 6
 cipulot_parts
+TS-1088R-02026
+
+
+0
+2
+2
+cipulot_parts
+TSSOP-24_L7.8-W4.4-P0.65
+
+
+0
+24
+24
+cipulot_parts
 TSSOP16
 
 
 0
 16
 16
-cipulot_parts
-TYPEC-304YSSW-ACP16
-
-
-0
-16
-13
 cipulot_parts
 Teensy_2.0
 
@@ -95388,6 +95745,34 @@ USB-A-Generic
 0
 6
 5
+cipulot_parts
+USB-A-SMD_903-232A2021S10100
+
+
+0
+6
+6
+cipulot_parts
+USB-A-SMD_U-A-24DS-W-1
+
+
+0
+8
+5
+cipulot_parts
+USB-A-SMD_U-A-24SD-W-2
+
+
+0
+8
+5
+cipulot_parts
+USB-A-SMD_U221-041N-3BU01-S5
+
+
+0
+8
+8
 cipulot_parts
 USB-C-12-Pin-MidMount
 
@@ -95508,6 +95893,20 @@ ace6.5
 0
 0
 cipulot_parts
+blomster
+
+
+0
+0
+0
+cipulot_parts
+blomster2
+
+
+0
+0
+0
+cipulot_parts
 breakaway-hole
 
 
@@ -95543,6 +95942,20 @@ costar_stab_2u
 0
 0
 cipulot_parts
+costar_stab_6u
+
+
+0
+0
+0
+cipulot_parts
+costar_stab_7u
+
+
+0
+0
+0
+cipulot_parts
 costar_stab_625u
 
 
@@ -95564,7 +95977,7 @@ ecs_3U_space_stab
 0
 0
 cipulot_parts
-ecs_6.25U_space_stab
+ecs_6.25U_space_stab_KLC_Wire
  StepUp generated footprint
 
 0
@@ -95578,7 +95991,21 @@ ecs_6U_space_stab
 0
 0
 cipulot_parts
+ecs_6U_space_stab_KLC_Wire
+ StepUp generated footprint
+
+0
+0
+0
+cipulot_parts
 ecs_7U_space_stab
+ StepUp generated footprint
+
+0
+0
+0
+cipulot_parts
+ecs_7U_space_stab_KLC_Wire
  StepUp generated footprint
 
 0
@@ -95592,74 +96019,193 @@ ecs_8U_space_stab
 0
 0
 cipulot_parts
+ecs_pad_0.25U_0.125U_spaced_no_ring
+ StepUp generated footprint
+
+0
+10
+3
+cipulot_parts
+ecs_pad_0.25U_0.125U_spaced_no_ring_cut
+ StepUp generated footprint
+
+0
+10
+3
+cipulot_parts
+ecs_pad_0.25U_0.125U_spaced_no_ring_cut_right
+ StepUp generated footprint
+
+0
+10
+3
+cipulot_parts
+ecs_pad_0.25U_spaced_no_ring
+ StepUp generated footprint
+
+0
+8
+3
+cipulot_parts
+ecs_pad_0.25U_spaced_no_ring_cut
+ StepUp generated footprint
+
+0
+8
+3
+cipulot_parts
+ecs_pad_0.125U_spaced_3_unit_no_ring
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_0.125U_spaced_3_unit_no_ring_cut
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_0.125U_spaced_no_ring
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
 ecs_pad_1U_no_ring
  StepUp generated footprint
 
 0
-4
+6
 3
 cipulot_parts
 ecs_pad_1U_no_ring_ 東プレ _十六条旭日旗
  StepUp generated footprint
 
 0
-4
+6
 3
 cipulot_parts
 ecs_pad_1U_no_ring_1u_edge_cut
  StepUp generated footprint
 
 0
-4
+6
+3
+cipulot_parts
+ecs_pad_1U_no_ring_1u_edge_cut_horizontal
+ StepUp generated footprint
+
+0
+6
 3
 cipulot_parts
 ecs_pad_1U_no_ring_alveus
  StepUp generated footprint
 
 0
-4
+6
 3
+cipulot_parts
+ecs_pad_1U_no_ring_dafu
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_1U_no_ring_horizontal
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_1U_no_ring_no_silk
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_1U_no_ring_rotary_encoder_ec12
+ StepUp generated footprint
+
+0
+13
+6
+cipulot_parts
+ecs_pad_2.666U_spaced_no_ring_horizontal
+ StepUp generated footprint
+
+0
+9
+3
+cipulot_parts
+ecs_pad_2.666U_spaced_no_ring_vertical
+ StepUp generated footprint
+
+0
+11
+4
 cipulot_parts
 ecs_pad_2U_no_ring
  StepUp generated footprint
 
 0
-4
+6
 3
 cipulot_parts
 ecs_pad_2U_no_ring_ 東プレ _十六条旭日旗
  StepUp generated footprint
 
 0
-4
+6
 3
 cipulot_parts
 ecs_pad_2U_no_ring_alveus
  StepUp generated footprint
 
 0
-4
+6
+3
+cipulot_parts
+ecs_pad_2U_no_ring_cut
+ StepUp generated footprint
+
+0
+6
+3
+cipulot_parts
+ecs_pad_2U_no_ring_horizontal
+ StepUp generated footprint
+
+0
+6
 3
 cipulot_parts
 ecs_pad_2U_no_ring_no_silk
  StepUp generated footprint
 
 0
-4
+6
 3
 cipulot_parts
 ecs_pad_4port
  StepUp generated footprint
 
 0
-5
+7
 3
 cipulot_parts
 ecs_pad_no_ring_1u&1.25u&1.5u
  StepUp generated footprint
 
 0
-4
+8
 3
 cipulot_parts
 ecs_pad_no_ring_1u1.75u
@@ -95673,14 +96219,14 @@ ecs_pad_no_ring_stepped&normal
  StepUp generated footprint
 
 0
-4
+8
 3
 cipulot_parts
 ecs_pad_no_ring_stepped&normal_cut
  StepUp generated footprint
 
 0
-4
+8
 3
 cipulot_parts
 ecs_plate_3U_space_stab
@@ -95738,6 +96284,20 @@ ecs_plate_cut_8U_space_stab
 0
 0
 0
+cipulot_parts
+flx_SUpSmall
+
+
+0
+2
+1
+cipulot_parts
+flx_small
+
+
+0
+2
+1
 cipulot_parts
 mousebites_1mm
 
