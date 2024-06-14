@@ -26,7 +26,7 @@ Furthermore, you will need 17x 10mm M2 screws and M2 nuts to assemble the pcb.
 
 ## Disclaimer
 
-1) Please proceed with caution with respect to copyrights when using this repository
+1) Please proceed with caution with respect to copyright issues when using this repository
 2) Take note that this is strictly for non-commercial use only
 3) This PCB has been fully tested and confirmed to work. The members of the PCB development team are however not liable if you end up with a non-functional pcb. Order at your own risk. Support will not be provided but pull requests will be reviewed and possibly accepted.
 
