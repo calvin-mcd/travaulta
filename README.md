@@ -11,9 +11,7 @@ travaulta is an EC (topre) pcb for mechvault's [Vault35](https://mechvault.net/p
 [Link](http://www.keyboard-layout-editor.com/#/gists/d333b15956554a98cf3ed6f06e2de3bf)
 
 ## Images
-
-![](https://github.com/calvin-mcd/travaulta/blob/main/Images/top.png)  
-![](https://github.com/calvin-mcd/travaulta/blob/main/Images/bottom.png)  
+  
 ![](https://github.com/calvin-mcd/travaulta/blob/main/Images/calvin.jpg)
 
 ## Firmware
