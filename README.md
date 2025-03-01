@@ -1,14 +1,26 @@
-# travaulta
+# travaultas
 
-travaulta is an EC (topre) pcb for mechvault's [Vault35](https://mechvault.net/products/vault-35-mini-keyboard) designed by calvin0563. The pcb supports a single bottomrow layout with the double 1.75u splitbars. Firmware source code and the OEM plate file are available in their respective folders. In order to fit the topre pcb into the case, small modifications to some housings are necessary. Please refer to the extensive build guide by cia\_moonchild in order to learn how to make the assembled pcb fit into the vault35 case.
+The travaultas are a series of EC (topre) pcbs for mechvault's [Vault35](https://mechvault.net/products/vault-35-mini-keyboard) series designed by calvin0563. 
+
+The series consists of the HHKB and WKL pcbs, both supporting a single bottomrow layout with the double 1.75u splitbars, and the Number/Macropad, supporting all layout options. 
+
+Firmware source code and the OEM plate file are available in their respective folders. In order to fit the topre pcb into the case, small modifications to some housings are necessary. Please refer to the extensive build guide by cia\_moonchild in order to learn how to make the assembled pcb fit into the vault35 case.
 
 [Build Guide!!!](https://imgur.com/a/L5vGjtF)
 
+**BEWARE**: The HHKB pcb has been fully tested and confirmed to work. The WKL and Numpad have not yet been prototyped and still require firmware. 
+
 ## Layout
 
-![](https://github.com/calvin-mcd/travaulta/blob/main/Images/KLE.png)
+![HHKB](https://github.com/calvin-mcd/travaulta/blob/main/Images/KLE.png)
 
 [Link](http://www.keyboard-layout-editor.com/#/gists/d333b15956554a98cf3ed6f06e2de3bf)
+
+![WKL](https://github.com/calvin-mcd/travaulta/blob/main/Images/KLE1.png)
+
+[Link](https://www.keyboard-layout-editor.com/#/gists/da6e12de7bd5171aa8982730b8f45f17)
+
+![Numpad](https://github.com/calvin-mcd/travaulta/blob/main/Images/KLE2.png)
 
 ## Images
   
@@ -22,7 +34,7 @@ The basic EC firmware is ready to go and the source code is provided for tweakin
 
 The plate file is OEM housing (so original, deskey, klc, pbb housings should all work). Be sure to order the plate in 1.2mm thickness regardless of material.
 
-Furthermore, you will need 17x 10mm M2 screws and M2 nuts to assemble the pcb.
+Furthermore, you will need 17x 10mm M2 screws and M2 nuts to assemble the HHKB and WKL pcbs. And 6x 10mm M2 screws and nuts to assemble numbpad.
 
 ## Disclaimer
 
