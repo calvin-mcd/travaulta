@@ -5,7 +5,7 @@
     "maintainer": "calvin-mcd",
     "processor": "STM32F401",
     "bootloader": "stm32-dfu",
-    "board": "GENERIC_STM_FXXX",
+    "board": "GENERIC_STM32_F401XC",
     "usb": {
         "vid": "0x6369",
         "pid": "0x6B84",

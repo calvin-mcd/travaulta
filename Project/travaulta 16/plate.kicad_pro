@@ -78,8 +78,13 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
+<<<<<<< HEAD:Project/travaulta 16/plate.kicad_pro
         "hole_clearance": "ignore",
         "hole_near_hole": "ignore",
+=======
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/travaulta.kicad_pro
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "ignore",
@@ -150,7 +155,11 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
+<<<<<<< HEAD:Project/travaulta 16/plate.kicad_pro
           "td_curve_segcount": 5,
+=======
+          "td_curve_segcount": 0,
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/travaulta.kicad_pro
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -161,7 +170,11 @@
         },
         {
           "td_allow_use_two_tracks": true,
+<<<<<<< HEAD:Project/travaulta 16/plate.kicad_pro
           "td_curve_segcount": 5,
+=======
+          "td_curve_segcount": 0,
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/travaulta.kicad_pro
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -172,7 +185,11 @@
         },
         {
           "td_allow_use_two_tracks": true,
+<<<<<<< HEAD:Project/travaulta 16/plate.kicad_pro
           "td_curve_segcount": 5,
+=======
+          "td_curve_segcount": 0,
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/travaulta.kicad_pro
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -521,11 +538,19 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+<<<<<<< HEAD:Project/travaulta 16/plate.kicad_pro
       "plot": "Production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "plate 2u threaded.step",
       "svg": "svg",
+=======
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "travaulta prototype.step",
+      "svg": "",
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/travaulta.kicad_pro
       "vrml": ""
     },
     "page_layout_descr_file": ""

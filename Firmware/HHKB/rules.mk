@@ -1,15 +1,7 @@
-# MCU name
-MCU = STM32F401
-
-BOARD = GENERIC_STM32_F401XC
-
-# Bootloader selection
-BOOTLOADER = stm32-dfu
-
 KEYBOARD_SHARED_EP = yes
 
 CUSTOM_MATRIX = lite
-SRC += analog.c matrix.c switch_matrix.c
+SRC += analog.c matrix.c ec_switch_matrix.c
 
 # Build Options
 #   change yes to no to disable

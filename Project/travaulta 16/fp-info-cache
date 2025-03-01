@@ -1,4 +1,8 @@
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 25384702810673333
+=======
+23156914565124632
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68545,6 +68549,7 @@ Hotswap footprint for Kailh Choc style switches
 2
 PCM_marbastlib-choc
 SW_choc_v1_HS_CPG135001S30_1u
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 Hotswap footprint for Kailh Choc style switches
 
 0
@@ -68552,6 +68557,8 @@ Hotswap footprint for Kailh Choc style switches
 2
 PCM_marbastlib-choc
 SW_choc_v1_HS_CPG135001S30_2.25u
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 Hotswap footprint for Kailh Choc style switches
 
 0
@@ -70609,6 +70616,7 @@ TRRS jack 3.5mm headphone connector
 8
 4
 PCM_marbastlib-xp-various
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 Diodes_UDFN2020-6_Type-F
 U-DFN2020-6 (Type F) (https://www.diodes.com/assets/Package-Files/U-DFN2020-6-Type-F.pdf) 
 U-DFN2020-6 (Type F)
@@ -70630,6 +70638,8 @@ mezzanine
 10
 10
 PCM_marbastlib-xp-various
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 LED_WS2812_2020_rearmount
 2020 SMD adressable RGB LED with integrated controller
 LED RGB NeoPixel
@@ -70672,6 +70682,7 @@ LiIon LiPo battery charger management usb power path switch-mode step-down buck
 24
 24
 PCM_marbastlib-xp-various
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 PDFN3.3x3.3-8L_2
 
 
@@ -70685,6 +70696,35 @@ PDFN3.3x3.3_EP
 0
 9
 9
+=======
+Molex_Pico-EZmate_HC_208294-0020_1x02-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0020 (https://www.molex.com/en-us/products/part-detail/2082940020)
+connector Molex Pico-EZmate side entry
+0
+16
+3
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0030_1x03-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940030)
+connector Molex Pico-EZmate side entry
+0
+17
+4
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0040_1x04-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940040)
+connector Molex Pico-EZmate side entry
+0
+18
+5
+PCM_marbastlib-xp-various
+Molex_Pico-EZmate_HC_208294-0050_1x05-1MP_P1.80mm_Vertical
+Molex Pico-EZmate series connector, 208294-0030 (https://www.molex.com/en-us/products/part-detail/2082940040)
+connector Molex Pico-EZmate side entry
+0
+19
+6
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 PCM_marbastlib-xp-various
 PNT_psp1000
 Footprint for a PSP-1000 joystick
@@ -70714,6 +70754,7 @@ stm32 arm wireless bluetooth low energy ble zigbee
 86
 86
 PCM_marbastlib-xp-various
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 USB_C_Receptacle_HRO_TYPE-C-31-M-23
 USB Type-C receptacle for USB 2.0 and PD, https://en.krhro.com/Product-Details/719.html
 usb usb-c 2.0 pd
@@ -70728,6 +70769,15 @@ XUNPU  fpc FPC-0.5AL vertical
 22
 21
 PCM_marbastlib-xp-various
+=======
+XUNPU_FPC-05F-16PH20_1x16-1MP_P0.5mm_Horizontal
+XUNPU FPC connector, 16 bottom-side contacts, 0.5mm pitch, SMT, https://datasheet.lcsc.com/lcsc/2109221030_XUNPU-FPC-05F-16PH20_C2856801.pdf
+XUNPU  fpc FPC-05F-16PH20
+0
+18
+17
+PCM_marbastlib-xp-various
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 nRF52840_holyiot_18010_HS
 Module containing a nRF52840 and most passives and antenna
 holyiot 18010 nRF52840 bluetooth low energy 
@@ -99309,6 +99359,7 @@ Cipulot_Logo_Exposed_Copper
 0
 0
 cipulot_parts
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 Cipulot_Logo_Medium_Exposed_Copper
 
 
@@ -99323,6 +99374,8 @@ Cipulot_Logo_Medium_Silk
 0
 0
 cipulot_parts
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 Cipulot_Logo_Silk
 
 
@@ -99568,7 +99621,11 @@ HOLE_M2_MNK
 0
 0
 cipulot_parts
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 HOLE_M2_RF
+=======
+HOLE_M2_RF_Caps
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 
 
 0
@@ -102977,13 +103034,6 @@ TSSOP16
 16
 16
 cipulot_parts
-TYPEC-304YSSW-ACP16
-
-
-0
-16
-13
-cipulot_parts
 Teensy_2.0
 
 
@@ -103033,6 +103083,7 @@ USB-A-Generic
 6
 5
 cipulot_parts
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 USB-A-SMD_10.0-QTJ6.3
 
 
@@ -103040,6 +103091,8 @@ USB-A-SMD_10.0-QTJ6.3
 8
 5
 cipulot_parts
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 USB-A-SMD_903-232A2021S10100
 
 
@@ -103047,6 +103100,7 @@ USB-A-SMD_903-232A2021S10100
 6
 6
 cipulot_parts
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 USB-A-SMD_AF180QT1.0
 
 
@@ -103054,6 +103108,8 @@ USB-A-SMD_AF180QT1.0
 6
 5
 cipulot_parts
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 USB-A-SMD_U-A-24DS-W-1
 
 
@@ -103278,7 +103334,7 @@ ecs_3U_space_stab
 0
 0
 cipulot_parts
-ecs_6.25U_space_stab
+ecs_6.25U_space_stab_KLC_Wire
  StepUp generated footprint
 
 0
@@ -103460,6 +103516,7 @@ ecs_pad_2.666U_spaced_no_ring_vertical
 11
 4
 cipulot_parts
+<<<<<<< HEAD:Project/travaulta 16/fp-info-cache
 ecs_pad_2.666U_spaced_no_ring_vertical_cut
  StepUp generated footprint
 
@@ -103474,6 +103531,8 @@ ecs_pad_2.666U_spaced_no_ring_vertical_cut_right
 11
 4
 cipulot_parts
+=======
+>>>>>>> 1dec8e4a73f308694aa037b51957df2ab2512385:Project/fp-info-cache
 ecs_pad_2U_no_ring
  StepUp generated footprint
 
