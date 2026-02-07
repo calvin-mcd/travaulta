@@ -5,11 +5,11 @@
       "Application": "Pcbnew",
       "Version": "8.0.9"
     },
-    "CreationDate": "2026-02-07T17:36:44+01:00"
+    "CreationDate": "2026-02-07T17:36:35+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "travaulta plate naevies fr4",
+      "Name": "travaulta plate dyna fr4",
       "GUID": "74726176-6175-46c7-9461-20706c617465",
       "Revision": "rev?"
     },
@@ -33,47 +33,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "travaulta plate naevies fr4-F_Cu.gbr",
+      "Path": "travaulta plate dyna fr4-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-B_Cu.gbr",
+      "Path": "travaulta plate dyna fr4-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-F_Paste.gbr",
+      "Path": "travaulta plate dyna fr4-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-B_Paste.gbr",
+      "Path": "travaulta plate dyna fr4-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-F_Silkscreen.gbr",
+      "Path": "travaulta plate dyna fr4-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-B_Silkscreen.gbr",
+      "Path": "travaulta plate dyna fr4-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "travaulta plate naevies fr4-F_Mask.gbr",
+      "Path": "travaulta plate dyna fr4-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta plate naevies fr4-B_Mask.gbr",
+      "Path": "travaulta plate dyna fr4-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "travaulta plate naevies fr4-Edge_Cuts.gbr",
+      "Path": "travaulta plate dyna fr4-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

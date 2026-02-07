@@ -221,7 +221,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "travaulta plate topre fr4.kicad_pro",
+    "filename": "travaulta plate naevies threaded.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -259,7 +259,7 @@
       "plot": "production/plates/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "travaulta plate naevies threaded.step",
       "svg": "",
       "vrml": ""
     },
